@@ -1,0 +1,253 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	color: #304041;
+	letter-spacing: 0.05em;*/
+
+	
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a { text-decoration: none;
+
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+
+}
+
+section {
+	padding: 75px 0;
+}
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+	
+}
+
+	
+.nav__logo {
+	display: inline-block;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	object-fit: cover;
+	height: 100%;
+
+	
+}
+
+.ofer__btn {
+	padding: 18px 0px;
+	background: #FF7E36;
+	margin: 0 auto;
+	margin-top: 24px;
+	color: #fff;
+	border-radius: 119px;
+	display: block;
+	width: 247px;
+	transition: background 0.5s ease;
+}
+
+.ofer__btn:hover {
+	background: #FF640D;
+	transition: background	0.5s ease;
+	
+}
+
+/*первая секция*/
+
+.header {
+	background: linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, rgba(255, 126, 54, 0.24) 44.44%), url('../img/header1.jpg') no-repeat center/ cover;
+	text-align: center;
+	padding: 90px 0 80px;
+	color: #fff;
+}
+
+.ofer {
+	
+	margin-top: 201px;
+}
+
+.ofer__text {
+	color: #000;
+	background: #FFFFFF;
+    border-radius: 78px;
+    padding: 8px 17px;
+    width: 239px;
+    height: 34px;
+  	margin: 0 auto;
+  	margin-top: 24px;
+  	display: block;
+
+}
+
+.ofer__title {
+	font-size: 60px;
+	font-weight: 800;
+	letter-spacing: 0.145em;
+	margin-top: 24px;
+}
+
+.ofer__text_text {
+	font-size: 20px;
+	margin-top: 24px;
+
+}
+
+
+
+.arrow-down {
+	width: 18px;
+ 	height: 26px;
+ 	display: block;
+ 	margin: 217px auto 0;
+}
+
+/*маршруты*/
+
+.routes {
+	padding-top: 145px;
+}
+
+.wrapp {
+	display: flex;
+	justify-content: space-between;
+	padding:0 230px;
+}
+	
+
+.wrapp__destinations {
+	width: 650px;
+	padding: 112px 70px;
+	background: #E2F8FF;
+	
+
+
+
+}
+
+
+.section__title {
+	text-align: center;
+	margin-bottom: 100px;
+	font-size: 30px;
+}
+
+.destinations__way {
+	font-size: 15px;
+	color: #789AA0;
+	letter-spacing: 0.05em;
+	
+}
+
+.destinations__title {
+	font-size: 24px;
+	line-height: 29px;
+	
+}
+
+.destinations__story {
+	
+	font-size: 15px;
+
+}
+
+.notre-dame {
+	width: 476px;
+	height: 600px;
+	left: 894px;
+	top: 1180px;
+	position: absolute;
+}
+
+.arrow-next {
+	display: block;
+	margin:  50px  76px; 
+}
+
+.routes__btn {
+	padding: 18px 39px;
+	width: 332px;
+	text-align: center;
+	border-radius: 94px;
+	font-size: 15px;
+	display: block;
+	border: 1px solid #23CF7D;
+	color: #23CF7D;
+	margin: 0 auto;
+	font-weight: 800;
+	margin-top: 90px;
+	transition: background 0.5s ease, color 0.5s ease;
+}
+
+.routes__btn:hover {
+	color:#fff;
+	background: #23CF7D;
+	transition: background 0.5s ease, color 0.5s ease;
+}	
+
+
+
+
+.story-content {
+	background: url('../img/photo-france.png') no-repeat right center / 50%;
+	padding: 93px 0;
+}
+
+
+.story-content__list {
+	width: 407px;
+}
+
+.story-content__item {
+	font-size: 16px;
+	line-height: 20px;
+	margin-bottom: 60px;
+
+}
+
+.story-content__item:before {
+	content: '';
+	display: block;
+	width: 7px;
+	height: 74px;
+	border-radius: 23px;
+	background: #4EB1B6;
+	transform: rotate(90deg);
+}
+
+.footer {
+	padding-bottom: 165px;
+}
+
+.footer-content {
+	display: flex;
+	
+
+}
+
+.footer-content__text {
+	font-size: 14px;
+	color: #5C7677;
+	margin-right: 60px;
+
+}
